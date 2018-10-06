@@ -10,4 +10,12 @@ public class HelloWorldTest {
 		assertEquals(result, "Hello World");
 	}
 	
+	@Test
+	public void testName() {
+		String testName = "Name";
+		HelloWorld helloWorld = new HelloWorld();
+		String result = helloWorld.getHelloWorldName(name)
+		assertEquals(result, "Hello World");
+	}
+	
 }
