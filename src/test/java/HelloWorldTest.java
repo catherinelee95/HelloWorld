@@ -10,4 +10,11 @@ public class HelloWorldTest {
 		assertEquals(result, "Hello World");
 	}
 	
+	@Test
+	public void testEcho() {
+		String myString = "hi";
+		String result = (new HelloWorld()).echoString(myString);
+		assertEquals(result, myString);
+	}
+	
 }
